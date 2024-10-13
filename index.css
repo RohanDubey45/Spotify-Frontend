@@ -1,0 +1,395 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    margin: 0.25rem;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: black;
+    width: 23.8rem;
+}
+
+.side-nav {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 7.3rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    line-height: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.side-nav .side-nav-options {
+    padding: 0.5rem 1rem;
+}
+
+.side-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.side-nav i {
+    margin-right: 1rem;
+    color: white;
+    font-size: 1.375rem;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+.side-nav-options:hover {
+    opacity: 1;
+}
+
+.library {
+    height: 100vh;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;  
+    padding: 0.75rem 0.5rem;
+}
+
+.lib-options {
+    padding: 0.25rem 0.75rem;
+    opacity: 0.7;
+}
+
+.library .lib-icons i {
+    color: white;
+    font-size: 1.10rem;
+    opacity: 0.7;
+    margin-right: 1rem;
+} 
+
+.lib-options a {
+    text-decoration: none;
+    color: white;
+}
+
+.lib-options img {
+    height: 1.45rem;
+    margin-right: 1rem;
+} 
+
+.lib-options:hover {
+    opacity: 1;
+}
+
+.lib-icons {
+    display: flex;
+    margin-top: 0.75rem;
+}
+
+.lib-icons i:hover {
+    opacity: 1;
+}
+
+.box {
+    color: white;
+    background-color: #232323;
+    border-radius: 1rem;
+    margin: 0.75rem;
+    padding: 0.95rem 1.25rem;
+    height: 8.5rem; 
+}
+
+.lib-box .p1 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.lib-box .p2 {
+    font-size: 0.95rem;
+}
+
+.badge {
+    display: flex;
+    justify-content: center;
+    border: none; 
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.45rem 1rem;
+    font-weight: 600;
+}
+
+.main-content {
+    background-color: black;
+    height: 100vh;
+    flex: 1;
+    background-color: #121212;
+    margin: 0.5rem 0;
+    border-radius: 1rem;
+    overflow: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.main-content h2 {
+    color: white;
+}
+
+.main-icons img {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.main-nav {
+    position: sticky;
+    top: 0; 
+    display: flex;
+    justify-content: space-between;
+    z-index: 1500;
+    padding: 1rem;
+    background-color: #121212;
+}
+
+.main-options i {
+    font-size: 1.15rem;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.main-options i:hover {
+    opacity: 1;
+}
+
+.main-options {
+    display: flex;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-options button {
+    margin-right: 1.15rem;
+}
+
+.main-options #install {
+    background-color: black;
+    color: white;
+}
+
+.main-options #install:hover {
+    color: black;
+    background-color: #1bd760;
+}
+
+.card {
+    color: white;
+    width: 13.25rem;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.card:hover {
+    background-color: #232323;
+    transform: scale(1.01);
+}
+
+.card img {
+    border-radius: 1rem;
+    width: 13rem;
+    height: 13rem;
+}
+
+.card .card-title {
+    font-weight: 600;
+}
+
+.card .card-para {
+    font-size: 0.95rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.card-container .card-para {
+    opacity: 0.8;
+}
+
+.footer {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .line {
+    width: 90%;
+    height: 30%;
+    color: white;
+    border-top: 1px solid white;
+    opacity: 0.7;
+}
+
+.music-player {
+    background-color: black;
+    position: fixed;
+    height: 4.7rem; 
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-album {
+    width: 25%;
+}
+
+.music-controls {
+    width: 50%;
+}
+
+.music-options {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.music-options i {
+    opacity: 0.7;
+    margin-right: 1.5rem;
+}
+
+.music-options i:hover {
+    opacity: 1;
+    color: #1bd760;
+    transform: scale(1.1);
+}
+
+.music-options #speaker {
+    margin-right:0.45rem;
+}
+
+.playback-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.playback-controls img{
+    height: 1rem;
+    margin-right: 1.25rem;
+    opacity: 0.7;
+}
+
+.progress-bar span {
+    font-size: 0.8rem;
+}
+
+.playback-controls img:hover {
+    opacity: 1;
+}
+
+.playback-controls .play {
+    height: 1.75rem;
+    opacity: 1;
+}   
+
+.progress-bar {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+#range {
+    width: 65%;
+}
+
+.progress-bar input {
+    appearance: none;
+    border-radius: 100px;
+    height: 0.25rem;
+    margin: 0 0.5rem;
+}
+
+.music-album {
+    display: flex;
+    color: white;
+    padding: 0.5rem 0.75rem;
+
+}
+
+.music-album img {
+    height: 3.5rem;
+    margin-right: 1.25rem;
+}
+
+.music-album a {
+    color: white;
+    opacity: 0.7;
+    font-size: 0.9rem;
+    margin-top: 0.15rem;
+}
+
+.music-album a:hover {
+    opacity: 1;
+}
+
+.music-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.music-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-icons i {
+    opacity: 0.7;
+    font-size: 1.05rem;
+    margin-left: 0.75rem;
+}
+
+.music-icons i:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    color: #1bd760;
+}
+
+.music-options input {
+    appearance: none;
+    width: 30%;
+    height: 0.25rem;
+    border-radius: 100px;
+}
+
+
+
